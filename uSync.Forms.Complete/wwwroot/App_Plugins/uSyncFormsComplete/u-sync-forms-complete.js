@@ -1,4 +1,4 @@
-//#region src/menus/manifest.ts
+// src/menus/manifest.ts
 var e = [
 	"forms-form-root",
 	"forms-folder",
@@ -20,7 +20,6 @@ var e = [
 	name: "Pull Form",
 	forEntityTypes: e
 }];
-//#endregion
 export { t as manifests };
 
 //# sourceMappingURL=u-sync-forms-complete.js.map

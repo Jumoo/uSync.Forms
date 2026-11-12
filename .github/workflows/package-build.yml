@@ -34,6 +34,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      # GitVersion's setup step runs `dotnet tool install` from the repo root, and
+      # global.json pins an SDK the runner doesn't have until this step installs it.
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+
       - name: Install GitVersion
         # pinned to v3 on purpose: v4 of this action requires GitVersion >= 6.2, and our
         # GitVersion.yml is still v5 schema (mode / tag rather than deployment-mode / label).

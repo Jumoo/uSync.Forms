@@ -1,6 +1,9 @@
 {
   "sdk": {
-    "version": "10.0.100",
-    "rollForward": "latestFeature"
+    "version": "11.0.100-rc.3.26522.148",
+    // TODO (v19): restore "latestFeature" once a stable 11.0.100 SDK ships. Pinned exactly to
+    // match Umbraco's v19/dev global.json while .NET 11 is still in RC.
+    "rollForward": "disable",
+    "allowPrerelease": false
   }
 }
