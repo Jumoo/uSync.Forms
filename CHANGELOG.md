@@ -2,6 +2,18 @@
 
 All notable changes to uSync.Forms are documented here.
 
+## 19.0.0-rc1 - 2026-11-12
+
+Release candidate for Umbraco 19.
+
+### Changed
+
+- Targets .NET 11 (`net11.0`) and Umbraco 19: Umbraco.Cms 19.0.0-rc1, Umbraco.Forms
+  19.0.0-rc1 and uSync 19.0.0-rc1.
+- The backoffice clients build against `@umbraco-cms/backoffice` 19.0.0-rc1, and
+  uSync.Forms.Complete against `@jumoo/usync-publisher-assets` 19.0.0-rc1, both from
+  npmjs.org.
+
 ## 18.1.0 - 2026-10-07
 
 ### Upgrading

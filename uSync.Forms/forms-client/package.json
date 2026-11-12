@@ -1,14 +1,14 @@
 {
   "name": "usync-forms",
   "private": true,
-  "version": "17.0.0-rc1",
+  "version": "19.0.0-rc1",
   "type": "module",
   "scripts": {
     "watch": "tsc && vite build --watch",
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@umbraco-cms/backoffice": "^18.0.0",
+    "@umbraco-cms/backoffice": "^19.0.0-rc1",
     "typescript": "^5.9.3",
     "vite": "^8.3.5"
   }
