@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     open-pull-requests-limit: 10
     ignore:
       # Umbraco versions are locked to the release we've pinned across the .NET
@@ -24,7 +24,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/uSync.Forms/forms-client"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     open-pull-requests-limit: 10
     ignore:
       - dependency-name: "@umbraco-cms/*"
@@ -45,7 +45,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/uSync.Forms.Complete/Client"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     open-pull-requests-limit: 10
     ignore:
       - dependency-name: "@umbraco-cms/*"
@@ -66,7 +66,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     ignore:
       # v4 needs GitVersion >= 6.2 and our GitVersion.yml is still v5 schema -
       # see the comment in package-build.yml. Migrate deliberately, not via dependabot.
