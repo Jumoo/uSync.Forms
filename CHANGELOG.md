@@ -2,6 +2,13 @@
 
 All notable changes to uSync.Forms are documented here.
 
+## 17.2.1 - 2026-11-19
+
+### Changed
+
+- The backoffice client is now built with vite 8.3.8 (up from 8.3.2). Nothing changes
+  in how uSync.Forms behaves.
+
 ## 17.2.0 - 2026-10-07
 
 ### Upgrading
